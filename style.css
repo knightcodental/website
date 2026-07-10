@@ -382,3 +382,31 @@ body{
     line-height:1.8;
     margin-bottom:30px;
 }
+header{
+    position:sticky;
+    top:0;
+    z-index:999;
+    background:#ffffff;
+    box-shadow:0 2px 15px rgba(0,0,0,0.1);
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1200px;
+    margin:auto;
+    padding:18px 20px;
+}
+
+nav a{
+    color:#0056b3;
+    text-decoration:none;
+    font-weight:600;
+    margin-left:25px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#003b80;
+}
