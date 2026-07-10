@@ -364,7 +364,7 @@ body{
     background-position:center;
     color:#fff;
     text-align:center;
-    padding:120px 20px;
+    padding:20px 20px;
 }
 
 .hero-content{
@@ -386,8 +386,8 @@ header{
     position:sticky;
     top:0;
     z-index:999;
-    background:#ffffff;
-    box-shadow:0 2px 15px rgba(0,0,0,0.1);
+    background:transparent;
+    box-shadow:none;
 }
 
 nav{
@@ -396,7 +396,7 @@ nav{
     align-items:center;
     max-width:1200px;
     margin:auto;
-    padding:18px 20px;
+    padding:0;
 }
 
 nav a{
