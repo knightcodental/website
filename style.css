@@ -410,3 +410,20 @@ nav a{
 nav a:hover{
     color:#003b80;
 }
+.gallery-item,
+.product-card,
+.hero-content,
+.why-us .gallery-item{
+    animation:fadeUp 0.8s ease;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
