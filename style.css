@@ -341,3 +341,20 @@ body{
 .contact-form button:hover{
     background:#003b80;
 }
+.footer-content{
+    text-align:center;
+    padding:40px 20px;
+    background:#003b80;
+    color:#fff;
+}
+
+.footer-content h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.footer-content p{
+    margin:8px 0;
+    font-size:16px;
+    line-height:1.8;
+}
