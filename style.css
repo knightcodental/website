@@ -450,21 +450,32 @@ nav a:hover{
 
 .hero .btn:hover{
     transform:translateY(-3px);
-    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+    box-shadow:0 10px 20px rgba(
+
+    
+    
+    .hero{
+display: flex;
+align-items: center;
+justify-content: center;
+background:
+linear-gradient(...)
+url("banner.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
-.hero{
-    background:
-        linear-gradient(rgba(0,91,179,0.65), rgba(0,59,128,0.65)),
-        url("banner.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
+
 @media (max-width:768px){
 
 .hero{
-    padding:0px 20px;
-    min-height:250px;
+    padding: 20px;
+min-height: 250px;
+
+
+
+
 }
 
 .hero h1{
