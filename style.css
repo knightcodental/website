@@ -27,11 +27,11 @@ header p{
 }
 
 nav{
-    margin-top:20px;
+    margin-top:10px;
 }
 
 nav a{
-    color:white;
+    color:#0056b3;
     text-decoration:none;
     margin:0 15px;
     font-weight:bold;
