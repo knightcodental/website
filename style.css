@@ -73,7 +73,25 @@ button{
 button:hover{
     background:#003d80;
 }
+.about{
+    padding:60px 20px;
+    background:#ffffff;
+    text-align:center;
+}
 
+.about h2{
+    color:#0056b3;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:800px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+    color:#555;
+}
 footer{
     background:#222;
     color:white;
