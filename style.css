@@ -242,3 +242,19 @@ body{
         height:220px;
     }
 }
+.btn{
+    display:inline-block;
+    margin:20px;
+    padding:12px 30px;
+    background:#0056b3;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#003b80;
+    transform:scale(1.05);
+}
