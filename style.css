@@ -481,6 +481,9 @@ nav a:hover{
 
 header{
     padding:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 nav{
