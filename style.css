@@ -463,8 +463,8 @@ nav a:hover{
 @media (max-width:768px){
 
 .hero{
-    padding:20px 20px;
-    min-height:520px;
+    padding:0px 20px;
+    min-height:460px;
 }
 
 .hero h1{
@@ -476,11 +476,11 @@ nav a:hover{
 }
 
 .hero-content{
-    padding-top:40px;
+    padding-top:0px;
 }
 
 header{
-    padding:10px 0;
+    padding:0;
 }
 
 nav{
