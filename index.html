@@ -43,6 +43,29 @@
 
     </div>
 </section>
+<div class="slider-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+const dots = document.querySelectorAll('.dot');
+
+let current = 0;
+
+setInterval(() => {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+
+    current = (current + 1) % slides.length;
+
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+}, 5000);
+</script>
 <section id="about" class="about">
     <h2>About Knight Co International</h2>
 
