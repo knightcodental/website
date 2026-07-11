@@ -619,3 +619,48 @@ font-size:18px;
 .partner-logos img:hover{
     transform:scale(1.08);
 }
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 20px;
+    background:#fff;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.logo img{
+    height:70px;
+}
+
+nav{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:#0056b3;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:17px;
+}
+
+nav a:hover{
+    color:#0099ff;
+}
+
+@media(max-width:768px){
+    header{
+        flex-direction:column;
+    }
+
+    nav{
+        margin-top:15px;
+        gap:15px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .logo img{
+        height:60px;
+    }
+}
