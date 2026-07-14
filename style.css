@@ -450,3 +450,23 @@ background:#1fb655;
 .btn-quote:hover{
 background:#003d80;
 }
+/* ===== FINAL IMAGE FIX ===== */
+
+.gallery-item img{
+    width:100% !important;
+    height:320px !important;
+    object-fit:contain !important;
+    background:#ffffff !important;
+    padding:10px !important;
+}
+
+.logo img{
+    width:90px !important;
+    height:auto !important;
+}
+
+.floating-whatsapp img{
+    width:55px !important;
+    height:55px !important;
+    object-fit:contain !important;
+}
