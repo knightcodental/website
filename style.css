@@ -777,3 +777,58 @@ header{
     gap:20px;
     width:100%;
 }
+/* ===== MOBILE FIX ===== */
+
+html,body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+header{
+    width:100%;
+    text-align:center;
+    padding:15px;
+}
+
+.logo img{
+    width:160px !important;
+    max-width:90% !important;
+    height:auto !important;
+    display:block;
+    margin:0 auto;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    width:100%;
+}
+
+.gallery-item{
+    width:100%;
+}
+
+.gallery-item img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.product-card{
+    width:100%;
+    max-width:360px;
+    margin:20px auto;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
