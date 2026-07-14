@@ -750,3 +750,13 @@ transition:.3s;
 .gallery-item .btn:hover{
 background:#009688;
 }
+.logo img{
+    width:120px !important;
+    height:auto !important;
+    display:block;
+    margin:0 auto;
+}
+
+header{
+    padding:15px 10px;
+}
