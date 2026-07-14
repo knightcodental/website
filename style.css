@@ -771,12 +771,6 @@ header{
     text-align:center;
 }
 
-.logo img{
-    width:180px;
-    max-width:90%;
-    height:auto;
-}
-
 .gallery-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
