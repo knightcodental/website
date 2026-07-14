@@ -760,3 +760,26 @@ background:#009688;
 header{
     padding:15px 10px;
 }
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+header{
+    width:100%;
+    text-align:center;
+}
+
+.logo img{
+    width:180px;
+    max-width:90%;
+    height:auto;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    width:100%;
+}
