@@ -453,11 +453,13 @@ background:#003d80;
 /* ===== FINAL IMAGE FIX ===== */
 
 .gallery-item img{
-    width:100% !important;
-    height:320px !important;
+    width:100%;
+    aspect-ratio:1/1;
+    height:auto !important;
     object-fit:contain !important;
     background:#ffffff !important;
-    padding:10px !important;
+    padding:15px;
+    cursor:pointer;
 }
 
 .logo img{
