@@ -832,3 +832,12 @@ img{
     max-width:100%;
     height:auto;
 }
+/* FINAL LOGO SIZE FIX */
+
+header .logo img{
+    width: 90px !important;
+    max-width: 90px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
